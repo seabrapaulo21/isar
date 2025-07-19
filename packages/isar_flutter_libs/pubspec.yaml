@@ -12,9 +12,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  isar: 
-    version: 0.0.0-placeholder
-    hosted: https://isar-community.dev/
+  isar:
+    path: ../isar 
 
 flutter:
   plugin:
