@@ -14,10 +14,10 @@ dependencies:
   dart_style: ^2.2.3
   dartx: ^1.1.0
   glob: ^2.0.2
-  isar: 
-    version: 3.1.8
-    hosted: https://pub.isar-community.dev
-  path: ^1.8.1
+  isar:
+    path: ../isar # Isso significa: vá uma pasta acima (para 'packages') e então para a pasta 'isar'
+  # A dependência 'path' do dart deve ser mantida se for usada em seu código
+  path: ^1.8.1 # Esta é a biblioteca 'path' do Dart, não o caminho para o Isar
   source_gen: ^1.2.2
   xxh3: ^1.0.1
 
