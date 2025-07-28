@@ -12,9 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  isar: 
-    version: 3.1.8
-    hosted: https://pub.isar-community.dev
+  isar:
+    path: ../isar # Isso significa: vá uma pasta acima (para 'packages') e então para a pasta 'isar'
+  # A dependência 'path' do dart deve ser mantida se for usada em seu código
+  path: ^1.8.1 # Esta é a biblioteca 'path' do Dart, não o caminho para o Isar
 
 flutter:
   plugin:
